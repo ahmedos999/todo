@@ -4,7 +4,7 @@ import {useNavigate} from "react-router-dom";
 const Create = () => {
     const [title,setTitle] = useState('');
     const [body,setBody] = useState('');
-    const [author,setAuthor] = useState('yoshi');
+    const [author,setAuthor] = useState('Ahmed');
     const [isPending,setIsPending] = useState(false);
     const history = useNavigate();
 
@@ -36,8 +36,8 @@ const Create = () => {
             <textarea required value={body} onChange={(e)=>setBody(e.target.value)}></textarea>
             <label>Task author:</label>
             <select value={author} onChange={(e)=>setAuthor(e.target.value)}>
-                <option value="mario">Ahmed</option>
-                <option value="yoshi">Sheikh</option>
+                <option value="Ahmed">Ahmed</option>
+                <option value="Sheikh">Sheikh</option>
             </select>
             {!isPending && <button>Add Task</button>}
             {isPending && <button>Adding Task..</button>}

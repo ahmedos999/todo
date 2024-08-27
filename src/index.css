@@ -13,7 +13,7 @@
   border-bottom:1px solid #2f2f2f;
 }
 .navbar h1{
-  color: #f1356d;
+  color: #356af1;
 }
 .navbar .links{
   margin-left: auto;
@@ -24,7 +24,7 @@
   padding: 6px;
 }
 .navbar a:hover{
-  color: #f1356d;
+  color: #356af1;
 }
 .content{
   max-width: 600px;
@@ -39,22 +39,21 @@
 .controlbtns button{
   color: #fff;
   margin-left: 8px;
-  background-color: #f1356d;
+  background-color: #356af1;
   border-radius: 5px;
-  border: 1px solid #f1356d;
+  border: 1px solid #356af1;
 }
 
 .Task-preview{
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.Task-preview:hover{
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
-}
+
 .Task-preview h2{
   font-size: 20px;
-  color: #f1356d;
+  color: #356af1;
   margin-bottom: 8px;
 }
 
@@ -63,14 +62,14 @@
 }
 .Task-details h2{
   font-size: 20px;
-  color: #f1356d;
+  color: #356af1;
   margin-bottom: 10px;
 }
 .Task-details div{
   margin: 20px 0;
 }
 .Task-details button{
-  background: #f1356d;
+  background: #356af1;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -79,7 +78,7 @@
 }
 .create h2{
   text-align: center;
-  color: #f1356d;
+  color: #356af1;
 }
 .create form{
   display: flex;
@@ -99,7 +98,7 @@
   align-self: center;
   margin-top: 10px;
   border-radius: 6px;
-  background-color: #f1356d;
+  background-color: #356af1;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -108,7 +107,7 @@
 .Task-details button{
   align-self: center;
   border-radius: 4px;
-  background-color: #f1356d;
+  background-color: #356af1;
   color: #fff;
   border: 0;
   padding: 6px 10px;
@@ -118,7 +117,11 @@
 }
 
 .Task-details button:hover{
-  color: #f1356d;
+  color: #356af1;
   background-color: #fff;
-  border: 1px solid #f1356d;
+  border: 1px solid #356af1;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
 }

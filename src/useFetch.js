@@ -15,7 +15,7 @@ const useFetch = (endpoint)=>{
         .then(res =>{
             
         if(!res.ok){
-            throw Error('Could not find the data');
+            throw Error('Endpoint did not found');
             
         }
             return res.json();
@@ -33,7 +33,7 @@ const useFetch = (endpoint)=>{
             }
 
         })
-        },1000);
+        },500);
         return () => abortCont.abort();
 
 
