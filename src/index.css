@@ -1,13 +1,124 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins';
+  color: #333;
+}
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom:1px solid #2f2f2f;
+}
+.navbar h1{
+  color: #f1356d;
+}
+.navbar .links{
+  margin-left: auto;
+}
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover{
+  color: #f1356d;
+}
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.controlbtns{
+  width: 150px;
+  display: flex;
+  margin: auto;
+}
+.controlbtns button{
+  color: #fff;
+  margin-left: 8px;
+  background-color: #f1356d;
+  border-radius: 5px;
+  border: 1px solid #f1356d;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Task-preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.Task-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.Task-preview h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+.Task-preview a{
+  text-decoration: none;
+}
+.Task-details h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.Task-details div{
+  margin: 20px 0;
+}
+.Task-details button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.create h2{
+  text-align: center;
+  color: #f1356d;
+}
+.create form{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.create label{
+  font-size: 16px;
+  margin: 10px 0;
+}
+.create input,textarea,select{
+  border-radius: 4px;
+  border: 1px solid #d1d1d1;
+  padding: 10px;
+}
+.create button{
+  align-self: center;
+  margin-top: 10px;
+  border-radius: 6px;
+  background-color: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  cursor: pointer;
+}
+.Task-details button{
+  align-self: center;
+  border-radius: 4px;
+  background-color: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 500ms ease-in-out;
+}
+
+.Task-details button:hover{
+  color: #f1356d;
+  background-color: #fff;
+  border: 1px solid #f1356d;
 }
